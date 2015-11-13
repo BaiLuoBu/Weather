@@ -200,7 +200,7 @@
 
 #pragma mark - 获取城市ID
 - (void)textWeatherWithUrl:(NSString *)url{
-    
+    // 如果有传值 就直接去下载数据
     if (self.cityID) {
         [self createUrl];
         return;
