@@ -136,6 +136,7 @@
      //key 对应的值可以什么都不写 ，也可以写内容 会显示在 用户授权的警告框中
      
      */
+    // 获取当前版本
     double v = [UIDevice currentDevice].systemVersion.doubleValue;
     if (v >= 8.0) {
         [self.manager requestWhenInUseAuthorization];
